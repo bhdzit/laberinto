@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+}
+
+.container {
+    position: absolute;
+    top: 25vh;
+}
+
+.inicio {
+    width: 95px;
+    position: absolute;
+    height: 80px;
+    border-radius: 10px;
+    border: solid blue ;
+    z-index: 3;
+    top:-120px;
+}
+
+.destino {
+    width: 95px;
+    position: absolute;
+    height: 80px;
+    border-radius: 10px;
+    border: solid red ;
+    z-index: 3;
+    top:-120px;
+    left: 702px;
+}
+.contenedor-btn{
+   position: absolute;
+   right: 0; 
+}
+.contenedor-btn button{
+    margin-bottom: 10px;
+}
